@@ -1,5 +1,5 @@
 # Sci-Fi Movies Webpage
-## A simple webpage with basic jQuery functionality
+A simple webpage with basic jQuery functionality
 
 ###### The page showcases 3 basic functionalities using jQuery 
 
