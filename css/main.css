@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Teko:300);
+
+#grid{
+  background: #fff url(../img/space.jpg) top left;
+  width: 100%;
+  height: 3000px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+#content{
+  color: #292929;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+#content h1 {
+  font-family: Teko;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: none;
+  background: url(../img/mask.jpg) 0 474px;
+  background-size: cover;
+  padding: 50px 0;
+  font-size: 44px;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}
+#content article .page-header {
+  border-bottom: 2px solid #d15353;
+}
+#content h1 .fa-space-shuttle{
+  color: #000;
+}
+.media-heading{
+  font-family: Teko;
+  font-weight: 300;
+  font-size: 36px;
+}
+.media-heading .year{
+  color: #6c6c6c;
+}
+.media-body a.btn{
+  margin-top: 12px;
+}
+.imdb{
+  color: #000;
+  background: #efd45f;
+  background: -moz-radial-gradient(center, ellipse cover,  #efd45f 0%, #e4ba38 50%, #dba716 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  #efd45f 0%,#e4ba38 50%,#dba716 100%);
+  background: radial-gradient(ellipse at center,  #efd45f 0%,#e4ba38 50%,#dba716 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efd45f', endColorstr='#dba716',GradientType=1 );
+  padding: 2px 5px;
+  border-radius: 3px;
+  border: 1px solid #6c6c6c;
+}
+#content article {
+  border: 1px solid #ddd;
+  margin: 50px 0;
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Roboto Condensed";
+  background-color: rgba(244, 244, 244, .9);
+}
+#content article p{
+  text-indent: 12px;
+}
+#back-to-top {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+  z-index: 100;
+  outline: none; 
+  width: 64px;
+  height: 64px;
+  color: #a12828;
+  background: rgba(255, 255, 255, .8);
+  border-radius: 50%;
+  transition: .3s all;
+}
+#back-to-top:hover, 
+#back-to-top:focus{  
+  color: #d15353;
+  background: #ececec;
+}
+#back-to-top .glyphicon {
+  font-size: 2.4em;
+  top: 14px;
+  left: 1px;
+}
